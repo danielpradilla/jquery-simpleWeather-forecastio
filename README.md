@@ -13,12 +13,15 @@ Register at [geonames.org](http://www.geonames.org/), and activate your account 
 
 Register at [forecast.io](http://forecast.io), and get your API key.
 
-Open jquery-simpleWeather-foreacast.io and put your geonames username at GEONAMES_KEY = 'YOUR_GEONAMES_USERNAME' and your forecast.io API key at   var FORECASTIO_KEY = 'YOUR_FORECASTIO_API_KEY'.
+Open jquery-simpleWeather-foreacast.io and put your geonames username at `GEONAMES_KEY = 'YOUR_GEONAMES_USERNAME'` and your forecast.io API key at `var FORECASTIO_KEY = 'YOUR_FORECASTIO_API_KEY'`.
 
 Yeah, I know, sending the keys in the open is a big no-no. Tough luck. 
 
 The correct way to do this is by proxying (and caching) the requests through a small proxy, like [proxy-php](https://github.com/gentics/proxy-php)
 
+
+##Demo
+Check the index.html for a working example
 
 
 ## License

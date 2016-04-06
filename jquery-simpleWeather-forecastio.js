@@ -3,7 +3,6 @@
 (function($) {
   'use strict';
 
-
   var GEONAMES_KEY = 'YOUR_GEONAMES_USERNAME';
   var FORECASTIO_KEY = 'YOUR_FORECASTIO_API_KEY';
   $.extend({
