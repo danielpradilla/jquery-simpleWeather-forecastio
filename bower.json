@@ -1,0 +1,29 @@
+{
+  "name": "simpleWeather-forecastio",
+  "version": "1.0",
+  "homepage": "https://github.com/dpradilla/simpleWeather-forecastio",
+  "authors": [
+    "danielpradilla <info@danielpradilla.info>"
+  ],
+  "description": "simpleWeather using the forecast.io API.",
+  "main": "jquery.simpleWeather-forecastio.js",
+  "keywords": [
+    "weather",
+    "forecast.io",
+    "simpleWeather"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "moment": "^2.12.0",
+    "moment-timezone": "^0.5.3"
+  },
+  "moduleType": []
+}
