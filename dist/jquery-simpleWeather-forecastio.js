@@ -3,8 +3,12 @@
 (function($) {
   'use strict';
 
-  var GEONAMES_KEY = 'YOUR_GEONAMES_USERNAME';
-  var FORECASTIO_KEY = 'YOUR_FORECASTIO_API_KEY';
+  // var FORECASTIO_KEY = 'dd62b23565fa88cb9f8b6f79dc15bc1c'; //dpradilla
+  var FORECASTIO_KEY = 'cff0d47d9fb118a1024fee4f96a91cbe' //unogcsd
+  // var GEONAMES_KEY = 'depr001'; //dpradilla
+  var GEONAMES_KEY = 'unogcsd'; //unogcsd
+  // var GEONAMES_KEY = 'YOUR_GEONAMES_USERNAME';
+  // var FORECASTIO_KEY = 'YOUR_FORECASTIO_API_KEY';
   $.extend({
     simpleWeather: function(options){
       options = $.extend({

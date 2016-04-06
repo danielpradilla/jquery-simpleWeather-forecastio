@@ -13,9 +13,9 @@ module.exports = function(grunt) {
       all: {
             files: [{
                 expand: true,
-                cwd: '.',
+                cwd: './dist',
                 src: ['*.js', '!*.min.js', '!Gruntfile.js'],
-                dest: '.',
+                dest: './dist',
                 ext: '.min.js'
             }]
       }
